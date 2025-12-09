@@ -1,0 +1,30 @@
+/* Cria-se um regra @font-face para poder aplicar a familia de fontes que foi baixada, configurando a URL com o nome do arquivo, podendo ser otf ou ttf e colocando o format adequado a cada uma */
+
+
+
+@font-face {
+    font-family: 'Gust';
+    src: url('Storm Gust.otf') format('opentype'), url('Storm Gust.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Gust', Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Gust', Times, serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+/* 
+
+tipos de format()
+
+* opentype (otf)
+* truetype (ttf)
+* embedded-opentype
+* truetype-aat (apple advanced typography)
+* svg */

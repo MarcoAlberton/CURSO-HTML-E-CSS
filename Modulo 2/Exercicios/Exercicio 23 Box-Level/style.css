@@ -1,0 +1,48 @@
+/* 
+
+- É possivel utilizar os valores dashed, double, solid, dotted e grove para estilizar o tipo da linha da borda 
+
+- Se for uma caixa, utilizar margin:auto para alinhar ela no centro da página
+
+- outline é utilizado para criar uma tracejado por fora da borda
+- Ele esta dentro da margem, pode até extrapolar o tamanho da margem, porém não altera o seu tamanho
+
+Shorthands ordem
+
+- Border: tamanho, tipo da linha e cor
+
+- Padding: tamanho cima, tamanho direita, tamanho baixo e tamanho esquerda (se os tamanhos forem iguais é possivel somente informar um valor no padding que já é aplicado o mesmo tamanho para todos os lados)
+
+- É possivel também informar somente dois valores (ele aplica o primeiro valor como o tamanho de cima e de baixo e o segundo valor para direita e esquerda)
+
+- Margin é igual ao padding
+- É possivel colocar o tamanho cima, o valor auto para direita, tamanho baixo e valor auto para esquerda para centralizar uma box
+
+- É possivel transformar um box-level em inline-level utilizando o comando -> display: inline
+
+- É possivel também utilizar o display:block para transformar um inline-level para box-level
+
+*/ 
+
+
+h1{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    border: 10px solid black;
+    padding: 100px;
+    margin: 40px auto 40px auto;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 10px dashed gray;
+    
+}
+
+p{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+a{
+    border: 5px solid red;
+}

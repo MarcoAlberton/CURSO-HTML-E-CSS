@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+
+<body>
+    <h1> Inserindo videos hospedados localmente </h1>
+    <p> Este video esta hospedado no meu próprio servidor </p>
+
+    <video width="450px" poster="Imagens/seja-diferente,-seja-rd-(dark).png" controls autoplay loop>
+        <source src="midias/Full HD.mp4" type="video/mp4">
+        <source src="midias/Full-HD M4V.m4v" type="video/mp4">
+        <source src="midias/Full-HD OGV.ogv" type="video/webm">
+        <source src="midias/Full-HD WEBM.webm" type="video/ogg">
+        <p> Seu navegador não tem compatibilidade com reprodução de videos </p>
+    </video>
+
+
+<!-- Da mesma forma que em audios, tentar colocar o máximo de formatos de videos para que o usuários não tenham problemas de compatibilidade entre navegadores -->
+
+<!-- Organizar do formato mais leve ao mais pesado, para dar prioridade de execução ao video mais leve, mantendo a sua página rapida -->
+
+<!-- Não há necessidade de utilizar videos em 4k pois eles irão ocupar o espaço inteiro do site e terá que ser ajustado o tamanho, perdendo a qualidade, porém mantendo o tamanho do arquivo. Desse modo somente tornará o seu site mais pesado -->
+
+<!-- Utiliza-se atributo poster para colocar uma capa no video, sendo exibido antes de ser iniciado -->
+<!-- Controls serve para adicionar o botão de play, pause e ajustes de volume -->
+<!-- Width utilizado para ajustar o tamanho de video -->
+<!-- Autoplay inicia o video automaticamente quando o site é iniciado -->
+<!-- Loop, retorna o video para o inicio assim que o mesmo finaliza -->
+
+<!-- Videos hospedados no próprio site pode se tornar algo muito caro, pois consomem muito trafego de dados -->
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+
+/* Utilizando fontes do Google fonts 
+
+- Utiliza-se o @import da fonte escolhida no Google Fonts e cola na primeira linha do CSS
+
+- Utilizar no máximo 3 fontes para que o site não fique muito bagunçado
+
+*/

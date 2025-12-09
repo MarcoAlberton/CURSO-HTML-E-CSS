@@ -1,0 +1,32 @@
+/* 
+    :hover = quando você passa o mouse por cima realiza a ação determinada
+
+    div > p --> significa que a div possui um filho, nesse caso p
+    o valor display:none faz com que suma o elemento p que esta dentro da div
+
+    div:hover > p --> faz com que enquanto o usuário passar o mouse sobre a div revele o texto presente dentro de p e realize as configurações informadas
+*/
+
+div{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block; 
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+}
+
+div:hover{
+    background-color: red;
+}
+

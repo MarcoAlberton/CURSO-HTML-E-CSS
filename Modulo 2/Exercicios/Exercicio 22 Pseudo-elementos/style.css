@@ -1,0 +1,46 @@
+/* 
+    Para utilizar pseudo elementos utiliza-se :: e o nome 
+    EX: ::after. ::before
+*/
+
+body{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: aqua;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}    
+
+
+a:visited{
+    color: aquamarine;
+}
+
+a:hover{
+    color: azure;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+a::after{
+    content: '>>';
+}
+
+a::before{
+    content: '<<';
+}

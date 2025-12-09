@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Midias em HTML5 </title>
+</head>
+
+<body>
+    <h1> Imagem dinâmica </h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+<!-- Utiliza-se a tag source media-type para fazer a adaptação da imagen a diferentes tipos de tamanho de tela -->
+<!-- Media define o tamanho máximo em pixels necessário para que a imagem descrita no srcset seja exibida -->
+<!-- O type é utilizado para descrever o tipo do arquivo -->
+<!-- Sempre fazer o source do menor para o maior para evitar conflitos -->
+    <picture>
+        <source media="(max-width: 715px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+<!---------------------------------------------------------------------------------------------------------------------------->
+
+
+    <h1> Reproduzindo Áudios </h1>
+    <p> Vamos aprender a reproduzir áudios em HMTL5 </p>
+
+<!-- Utiliza-se a tag audio e dentro da mesma a source src/type -->
+<!-- O atributo preload serve para pre carregar o áudio mediante o valor informado, evitar utilizar o auto pois o navegador somente considera o site como carregado após baixar o áudio o que pode acabar deixando o site pesado -->
+<!-- Utilizar o preferencialmente o metadata pois o áudio somente é baixado quando o usuário pressiona os controles de audio-->
+<!-- O valor controls serve para criar um controle com pause e opção de volume e o  Loop serve para quando finalizar o áudio ele ser reproduzido novamente -->
+<!-- A ordem em que se coloca os diferente formatos de arquivos importa, pois o site tenta reproduzir de cima para baixo -->
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!-- Evitar utilizar pois é muito pesado -->
+        <p> Infelizmente o seu navegador não consegue reproduzir áudios. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo</a> </p> <!-- Utilizado para caso nenhum formato de arquivo acima não consiga ser reproduzido pelo navegador -->
+    </audio>
+
+
+</body>
+
+</html>
