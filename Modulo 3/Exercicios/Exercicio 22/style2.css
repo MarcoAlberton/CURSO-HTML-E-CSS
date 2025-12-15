@@ -1,0 +1,5 @@
+body{
+    background-image: url(http://gustavoguanabara.github.io/html-css/imagens/mascote.png); /* é possivel utilizar imagens que estão hospedadas em um servido externo, utilizando o URL da imagem */
+    background-size: 100px 100px; /* O Size define o tamanho que essa imagem ira ocupar no background */
+    background-repeat: repeat-x; /* A repetição por padrão é automatica, porém é possivel fazer a alteração disso utilizando o background-repeat com o valor */
+}

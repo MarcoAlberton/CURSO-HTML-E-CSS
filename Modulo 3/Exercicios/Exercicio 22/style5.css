@@ -1,0 +1,5 @@
+body{
+    height: 98vh;
+    background-image: url(Imagens/wallpaper003.jpg);
+    background-position: center center; /* Cria um ponto de ancoragem para a imagem do fundo, pode diminuir ou aumentar o tamanho da página mas sempre o center center será o ponto principal do background */
+}

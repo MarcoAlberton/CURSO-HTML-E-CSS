@@ -1,0 +1,26 @@
+div.quadrado{ /* Cria um quadrado através de um conteiner (div) */
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+}
+
+body{
+    background-image: url(Imagens/wallpaper001.jpg);
+}
+
+div#q1{
+    background-color: antiquewhite; /* Cria uma imagem de fundo com uma cor padrão */
+}
+
+div#q2{
+    background-image: linear-gradient(to left, black, blue); /* Cria uma imagem de fundo com um degrade */
+}
+
+div#q3{
+    background-image: url(Imagens/pattern003.png);
+} /* Utiliza uma imagem png como um fundo */
+
+/* A imagem é sempre carregada com o seu tamanho original, se a imagem for pequena e não couber no tamanho do conteiner ela é replicada diversas vezes para preencher */
