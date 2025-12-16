@@ -1,0 +1,26 @@
+/* Margin:auto somente serve para o alinhamento horizontal */
+
+#container{
+    background-size: 100% 100%;
+    background-image: url(Imagens/target001.png);
+    position: relative; /*Todo posicionamento de um box já é originalmente relativo */
+    height: 96vh;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo{
+    background-size: 100% 100%;
+    background-image: url(Imagens/target001.png);
+    position: absolute; /* Quando se coloca o posicionamento como absoluto é possivel alterar as propriedades left e top */
+    height: 200px;
+    width: 400px;
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+
+/* Utiliza-se os seguintes parametros para centralizar corretamente a caixa do conteudo ao centro do container*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
