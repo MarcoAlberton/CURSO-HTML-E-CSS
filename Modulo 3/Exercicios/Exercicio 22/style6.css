@@ -1,3 +1,9 @@
+/* Shorhands Background 
+    color > img > position > repeat > size(Não é aceito por todos os navegadores) > attachment
+    background: black url(Imagens/wallpaper002.jpg) center center no-repeat cover fixed
+*/
+
+
 body{
     height: 100vh;
     background-color: black;
@@ -5,14 +11,16 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover; /* Por padrão o valor é auto, mas é possivel aplicar outros valores como (cover) que faz com que o background seja exibido na tela inteira não importa o tamanho mas para isso realiza pode acabar realizando cortes na imagem */
+    background-attachment: fixed;
 }
  
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 3px solid black;
     border-radius: 20px;
+    margin-bottom: 30px;
 
 }
