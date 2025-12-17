@@ -17,7 +17,7 @@ header > h1{
     color: white;
     font-size: 10vw;
     font-variant: small-caps;
-    font-family: 'Passion One', cursive
+    font-family: 'Passion One', cursive;
 }
 
 header > p{
@@ -47,25 +47,32 @@ article{
     font-style: normal;
     font-weight: 400;
     line-height: 2em;
-
 }
 
 article#segundo{
     background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     color: white;
-    background-size: 100% 100%;
     margin-left: 0px;
+    
 }
 
 article#quarto{
     background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
     color: white;
+    margin: 0px;
 }
 
 
 article#quinto{
     margin-bottom: 24vh;
 }
+
 
 footer{
     background-color: black;
